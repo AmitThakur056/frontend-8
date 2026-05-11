@@ -9,6 +9,9 @@ if [[ -z "$GROUP" ]] ; then
   exit 1
 fi
 
+
+
+
 if [[ -z "$COMMIT" ]] ; then
   echo "Cannot find COMMIT env var"
   exit 1
